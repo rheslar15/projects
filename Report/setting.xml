@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Servers>
+    <ServerSettings>
+      <reportname>FT_BUH_EXTRACT</reportname>
+      <storeproc>Report.Rpt_Finance_Tracker_BUH</storeproc>
+      <templatefilename>FinanceTracker_Report.xlsx</templatefilename>
+      <outputfilename>Liro_Finance_Tracker_</outputfilename>
+      <outputdirectory>c:\Report\Processed</outputdirectory>
+	  <EmailSubject>Finance Tracking Report</EmailSubject>
+      <emaillist />
+	  <testing>Yes</testing>
+    </ServerSettings>
+	 <ServerSettings>
+      <reportname>WIP_REPORT</reportname>
+      <storeproc>Reports.Rpt_PHR_WIP_AR_Comments</storeproc>
+      <templatefilename>WIP_AR_Tracking_Report.xlsx</templatefilename>
+      <outputfilename>Liro_WIP_AR_Tracking_</outputfilename>
+      <outputdirectory>c:\Report\Processed</outputdirectory>
+	  <EmailSubject>WIP AND AR Tracking</EmailSubject>
+      <emaillist>       
+        <EmailRecipient>
+          <dept>MEP</dept>
+          <emailadresses>Smithm@liro.com,Allabenj@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ENV</dept>
+          <emailadresses>Gerbasip@liro.com,Zanonic@liro.com, Kreuzerr@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>SURVEY</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>CM</dept>
+          <emailadresses>Blondl@liro.com,Crinnionb@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>REI</dept>
+          <emailadresses>Baileym@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>GIS</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>UTILITY</dept>
+          <emailadresses>Smithm@liro.com,PannacciulliF@liro.com,totillof@liro.com,LovelaceI@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>DESIGN</dept>
+          <emailadresses>SonnenbergH@liro.com,Santanal@liro.com, Smithm@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ARCH</dept>
+          <emailadresses>GrantJ@liro.com, Santanal@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>VDC</dept>
+          <emailadresses>Anderssonl@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonMEPGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonCMGroup</dept>
+          <emailadresses>Burtonm@liro.com, KovacsS@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonARCHGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonDesignGroup</dept>
+          <emailadresses>urtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>TESTING</dept>
+          <emailadresses>pantinaj@liro.com, Heslarr@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient xsi:nil="true" />
+      </emaillist>
+	  <testing>Yes</testing>
+    </ServerSettings>
+	 <ServerSettings>
+      <reportname>WIP_AR_REPORT_AHOC</reportname>
+      <storeproc>Reports.Rpt_PHR_WIP_AR_Comments</storeproc>
+      <templatefilename>WIP_AR_Tracking_Report.xlsx</templatefilename>
+      <outputfilename>Liro_WIP_AR_Tracking_</outputfilename>
+      <outputdirectory>c:\Report\Processed</outputdirectory>
+	  <EmailSubject>: WIP AND AR Report</EmailSubject>
+       <emaillist>       
+        <EmailRecipient>
+          <dept>MEP</dept>
+          <emailadresses>Smithm@liro.com,Allabenj@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ENV</dept>
+          <emailadresses>Gerbasip@liro.com,Zanonic@liro.com, Kreuzerr@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>SURVEY</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>CM</dept>
+          <emailadresses>Blondl@liro.com,Crinnionb@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>REI</dept>
+          <emailadresses>Baileym@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>GIS</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>UTILITY</dept>
+          <emailadresses>Smithm@liro.com,PannacciulliF@liro.com,totillof@liro.com,LovelaceI@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>DESIGN</dept>
+          <emailadresses>SonnenbergH@liro.com,Santanal@liro.com, Smithm@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ARCH</dept>
+          <emailadresses>GrantJ@liro.com, Santanal@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>VDC</dept>
+          <emailadresses>Anderssonl@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonMEPGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonCMGroup</dept>
+          <emailadresses>Burtonm@liro.com, KovacsS@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonARCHGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonDesignGroup</dept>
+          <emailadresses>urtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>TESTING</dept>
+          <emailadresses>pantinaj@liro.com, Heslarr@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient xsi:nil="true" />
+      </emaillist>
+	  <testing>Yes</testing>
+    </ServerSettings>
+	<ServerSettings>
+      <reportname>BUH_FRI_ONLY_WIP</reportname>
+      <storeproc>Reports.Rpt_PHR_WIP_AR_Comments</storeproc>
+      <templatefilename>WIP_AR_Tracking_Report.xlsx</templatefilename>
+      <outputfilename>Liro_WIP_AR_Tracking_</outputfilename>
+      <outputdirectory>c:\Report\Processed</outputdirectory>
+	  <EmailSubject>: WIP AND AR Report</EmailSubject>
+       <emaillist>       
+        <EmailRecipient>
+          <dept>MEP</dept>
+          <emailadresses>Smithm@liro.com,Allabenj@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ENV</dept>
+          <emailadresses>Gerbasip@liro.com,Zanonic@liro.com, Kreuzerr@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>SURVEY</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>CM</dept>
+          <emailadresses>Blondl@liro.com,Crinnionb@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>REI</dept>
+          <emailadresses>Baileym@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>GIS</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>UTILITY</dept>
+          <emailadresses>Smithm@liro.com,PannacciulliF@liro.com,totillof@liro.com,LovelaceI@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>DESIGN</dept>
+          <emailadresses>SonnenbergH@liro.com,Santanal@liro.com, Smithm@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ARCH</dept>
+          <emailadresses>GrantJ@liro.com, Santanal@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>VDC</dept>
+          <emailadresses>Anderssonl@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonMEPGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonCMGroup</dept>
+          <emailadresses>Burtonm@liro.com, KovacsS@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonARCHGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonDesignGroup</dept>
+          <emailadresses>urtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>TESTING</dept>
+          <emailadresses>pantinaj@liro.com, Heslarr@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient xsi:nil="true" />
+      </emaillist>
+	  <testing>Yes</testing>
+    </ServerSettings>
+	<ServerSettings>
+      <reportname>EPR_HR</reportname>
+      <storeproc>Report.EPR_Hr_rpt</storeproc>
+      <templatefilename>EPR_By_BUH_Report.xlsx</templatefilename>
+      <outputfilename>EPR_By_BUH_Report_</outputfilename>
+      <outputdirectory>c:\Report\Processed</outputdirectory>
+	  <EmailSubject>EPR Report</EmailSubject>
+      <emaillist>       
+        <EmailRecipient>
+          <dept>MEP</dept>
+          <emailadresses>Smithm@liro.com,Allabenj@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ENV</dept>
+          <emailadresses>Gerbasip@liro.com,Zanonic@liro.com, Kreuzerr@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>SURVEY</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>CM</dept>
+          <emailadresses>Blondl@liro.com,Crinnionb@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>REI</dept>
+          <emailadresses>Baileym@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>GIS</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>UTILITY</dept>
+          <emailadresses>Smithm@liro.com,PannacciulliF@liro.com,totillof@liro.com,LovelaceI@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>DESIGN</dept>
+          <emailadresses>SonnenbergH@liro.com,Santanal@liro.com, Smithm@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ARCH</dept>
+          <emailadresses>GrantJ@liro.com, Santanal@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>VDC</dept>
+          <emailadresses>Anderssonl@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonMEPGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonCMGroup</dept>
+          <emailadresses>Burtonm@liro.com, KovacsS@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonARCHGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonDesignGroup</dept>
+          <emailadresses>urtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>TESTING</dept>
+          <emailadresses>pantinaj@liro.com, Heslarr@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient xsi:nil="true" />
+      </emaillist>
+	  <testing>Yes</testing>
+    </ServerSettings>
+    <ServerSettings>
+      <reportname>Full_WIP_Report</reportname>
+      <storeproc>Reports.Rpt_PHR_WIP_AR_Comments_full</storeproc>
+      <templatefilename>Full_WIP_AR_Tracking_Report.xlsx</templatefilename>
+      <outputfilename>Liro_Full_WIP_AR_Tracking_</outputfilename>
+      <outputdirectory>C:\Report\Processed</outputdirectory>
+       <emaillist>
+        <EmailRecipient>
+          <dept>MEP</dept>
+          <emailadresses>Smithm@liro.com,Allabenj@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ENV</dept>
+          <emailadresses>Gerbasip@liro.com,Zanonic@liro.com, Kreuzerr@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>SURVEY</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>CM</dept>
+          <emailadresses>Blondl@liro.com,Crinnionb@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>REI</dept>
+          <emailadresses>Baileym@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>GIS</dept>
+          <emailadresses>AnnittoR@liro.com,FunaroD@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>UTILITY</dept>
+          <emailadresses>Smithm@liro.com,PannacciulliF@liro.com,totillof@liro.com,LovelaceI@liro.com,AbramoC@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>DESIGN</dept>
+          <emailadresses>SonnenbergH@liro.com,Santanal@liro.com, Smithm@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>ARCH</dept>
+          <emailadresses>GrantJ@liro.com, Santanal@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>VDC</dept>
+          <emailadresses>Anderssonl@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonMEPGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonCMGroup</dept>
+          <emailadresses>Burtonm@liro.com, KovacsS@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonARCHGroup</dept>
+          <emailadresses>Burtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+		<EmailRecipient>
+          <dept>BostonDesignGroup</dept>
+          <emailadresses>urtonm@liro.com, LuchettiC@liro.com, NovellineB@liro.com, PlummerJ@liro.com, Massaj@liro.com</emailadresses>
+        </EmailRecipient>
+        <EmailRecipient>
+          <dept>TESTING</dept>
+          <emailadresses>pantinaj@liro.com, Heslarr@liro.com</emailadresses>
+        </EmailRecipient>        
+      </emaillist>
+      <testing>Yes</testing>
+    </ServerSettings>
+  </Servers>
+  <GlobalSettings>
+    <server>APPSRVR01</server>
+    <FromEmail>LiRoReports_donotreply@liro.com</FromEmail>
+    <ToEmail>pantinaj@liro.com,heslarr@liro.com</ToEmail>
+    <DefaultEmail>pantinaj@liro.com, heslarr@liro.com</DefaultEmail>
+    <connectionFinanceTrackerString>Data Source=APPSRVR01;Initial Catalog=FinanceTracker;Integrated Security=True;;MultipleActiveResultSets=True</connectionFinanceTrackerString>
+    <connectionHealthManagementString>Data Source=APPSRVR01;Initial Catalog=HealthManagement;Integrated Security=True;MultipleActiveResultSets=True</connectionHealthManagementString>
+  </GlobalSettings>
+</Settings>
